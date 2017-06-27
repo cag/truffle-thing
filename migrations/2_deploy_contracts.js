@@ -1,4 +1,4 @@
-var MetaKoin = artifacts.require("./MetaCoin.sol");
+var MetaKoin = artifacts.require("MetaKoin");
 
 module.exports = function(deployer) {
   deployer.deploy(MetaKoin);
